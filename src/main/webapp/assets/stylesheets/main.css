@@ -1,0 +1,19 @@
+/* внешние границы таблицы серого цвета толщиной 1px */
+table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        background: #2db34a;
+        }
+/* границы ячеек первого ряда таблицы */
+th {
+        border: 1px solid black;}
+/* границы ячеек тела таблицы */
+td {
+        border: 1px solid black;
+        padding: 3px;
+        text-align: center;
+}
+/* сделает ширину таблицы равной ширине блока контейнера, в котором она находится */
+table {width: 100%;}
+/* задаст фиксированную ширину для таблицы */
+table {width: 600px;}
